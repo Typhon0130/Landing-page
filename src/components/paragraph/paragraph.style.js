@@ -11,6 +11,7 @@ export default styled.p`
   color: ${theme.colors.white};
   font-family: 'InterNormal'
   line-height: 1.15;
+  ${(props) => (props.width ? `width:${props.width}` : "")};
   ${(props) => (props.color ? `color:${props.color}` : "")};
   ${(props) => (props.fontSize ? `font-size:${props.fontSize}` : "")};
   ${(props) => (props.lineHeight ? `line-height:${props.lineHeight}` : "")};

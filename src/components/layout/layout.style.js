@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { device } from "../../styles/BreakPoints";
 
 export const StyledLayout = styled.section`
 ${(props) => (props.flex ? `flex:${props.flex}` : "")};
@@ -14,6 +13,7 @@ export const StyledRow = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  ${(props) => (props.alignItems ? `align-items:${props.alignItems}` : "")};
   ${(props) => (props.display ? `display:${props.display}` : "")};
   ${(props) => (props.textAlign ? `text-align:${props.textAlign}` : "")};
   ${(props) => (props.backgroundImage ? `background: no-repeat url(${props.backgroundImage})` : "")};

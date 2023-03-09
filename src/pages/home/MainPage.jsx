@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Layout from "../../components/layout";
 import Images from "constants/img.constant";
 import { H1 } from "components/header";

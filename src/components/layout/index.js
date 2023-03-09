@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { StyledColumn, StyledLayout, StyledRow, StyledContainer } from './layout.style';
 
 export default function Layout ({children, ...rest}) {

@@ -8,6 +8,7 @@ ${fontsCss} // this works as a normal styled css
 *::before,
 *::after {
   box-sizing: border-box;
+  user-select: none;
 }
 
 html {
@@ -81,6 +82,35 @@ select {
 }
 a {
   text-decoration: none;
+  color: white;
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  transition: 0.4s;
+}
+::-webkit-scrollbar-thumb {
+  transition: 0.4s;
+  background-color: #784ffe;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #784ffe;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #784ffe;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: 0.4s;
+}
+::-webkit-scrollbar-thumb:hover {
+  transition: 0.4s;
+  background-color: #3c009d;
 }
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

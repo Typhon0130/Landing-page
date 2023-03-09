@@ -15,10 +15,12 @@ const Button = styled.button`
   line-height: normal;
   padding: 18px 20px;
   font-size: 26px;
-  font-family: 'InterNormal';
+  font-family: "InterNormal";
   user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   &:hover {
-    background:#3C009D;
+    background: #3c009d;
   }
 `;
 

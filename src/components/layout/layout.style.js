@@ -45,11 +45,14 @@ export const StyledColumn = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
-  align-itme: center;
+  align-items: center;
   ${(props) => (props.display ? `display:${props.display}` : "")};
   ${(props) => (props.width ? `width:${props.width}` : "")};
   ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
   @media screen and (max-width: 1440px) {
     width:100vw;
+  }
+  @media screen and (max-width: 1024px) {
+  padding-left: 22vw;
   }
 `;

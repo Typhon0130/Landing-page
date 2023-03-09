@@ -1,6 +1,5 @@
 import { theme } from "../../styles/Theme";
 import styled from "styled-components";
-import { device } from "styles/BreakPoints";
 
 const Button = styled.button`
   color: ${theme.colors.primaryTextColor};

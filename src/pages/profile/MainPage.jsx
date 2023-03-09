@@ -4,6 +4,8 @@ import { H1 } from "components/header";
 import P from "components/paragraph";
 import Button from "components/button";
 import CardWrapper from "components/Card";
+import { AiFillHome, AiOutlineUser } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function MainPage() {
   const { Row, Column } = Layout;
@@ -32,7 +34,11 @@ export default function MainPage() {
         </Column>
       </Row>
       <Layout paddingBottom="10rem">
-        <CardRow paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
+        <CardRow
+          paddingTop="31px"
+          paddingLeft="56px"
+          justifyContent="space-around"
+        >
           <CardWrapper>
             <Row paddingBottom="28px">
               <Brand />

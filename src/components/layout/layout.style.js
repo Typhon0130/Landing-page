@@ -7,7 +7,7 @@ export const StyledLayout = styled.section`
     props.paddingBottom ? `padding-bottom:${props.paddingBottom}` : ""};
   ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
   @media screen and (max-width: 1024px) {
-  padding-left: 0%;
+    padding-left: 0%;
   }
 `;
 
@@ -50,9 +50,6 @@ export const StyledColumn = styled.div`
   ${(props) => (props.width ? `width:${props.width}` : "")};
   ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
   @media screen and (max-width: 1440px) {
-    width:100vw;
-  }
-  @media screen and (max-width: 1024px) {
-  padding-left: 22vw;
+    width: 100vw;
   }
 `;

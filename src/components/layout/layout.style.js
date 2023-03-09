@@ -16,6 +16,7 @@ export const StyledRow = styled.div`
   flex-direction: row;
   align-tiems: center;
   ${(props) => (props.display ? `display:${props.display}` : "")};
+  ${(props) => (props.backgroundImage ? `background: no-repeat url(${props.backgroundImage})` : "")};
   ${(props) => (props.gridTemplateColumns ? `grid-template-columns:${props.gridTemplateColumns}` : "")};
   ${(props) => (props.gap ? `gap:${props.gap}` : "")};
 `;

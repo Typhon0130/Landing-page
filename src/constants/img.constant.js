@@ -1,7 +1,7 @@
-import Background from "asset/images";
+import Background from 'assets/images/background.png';
 
 const Images = {
-  Background: Background,
-};
+  Background: Background
+}
 
-export default Images;
+export default Images

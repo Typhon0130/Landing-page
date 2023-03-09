@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout";
 import Navbar from "../navbar";
-import Sidebar from "../sidebar";
+import Side from "../sidebar";
 import MainPage from "./MainPage";
 
 const Home = () => {
@@ -10,12 +10,8 @@ const Home = () => {
     <Layout>
       <Container>
         <Navbar />
-        <Row
-          display="grid"
-          gridTemplateColumns="auto auto auto auto auto"
-          gap="10px"
-        >
-          <Sidebar />
+        <Row>
+          <Side />
           <MainPage />
         </Row>
       </Container>

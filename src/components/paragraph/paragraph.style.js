@@ -12,4 +12,8 @@ export default styled.p`
   font-family: 'InterNormal'
   line-height: 1.15;
   ${(props) => (props.color ? `color:${props.color}` : "")};
+  ${(props) => (props.fontSize ? `font-size:${props.fontSize}` : "")};
+  ${(props) => (props.lineHeight ? `line-height:${props.lineHeight}` : "")};
+  ${(props) => (props.fontWeight ? `font-weight:${props.fontWeight}` : "")};
+  ${(props) => (props.color ? `color:${props.color}` : "")};
 `;

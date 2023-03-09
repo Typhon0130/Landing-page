@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SideBar from "components/side";
 
-const Sidebar = () => {
-    return (
-        <div>Sidebar</div>
-    )
-}
+const Side = () => {
+  return (
+    <SideBar flex="0 0 15%">
+      <div>hi</div>
+    </SideBar>
+  );
+};
 
-export default Sidebar;
+export default Side;

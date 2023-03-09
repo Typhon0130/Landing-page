@@ -9,7 +9,12 @@ export const StyledSide = styled.div`
   -webkit-box-pack: justify;
   -webkit-box-align: center;
   align-items: center;
-  ${(props) => (props.flex ? `flex:${props.flex}` : "")};
+  ${(props) => (props.position ? `position:${props.position}` : "")};
+  ${(props) => (props.top ? `top:${props.top}` : "")};
+  ${(props) => (props.left ? `left:${props.left}` : "")};
+  ${(props) => (props.width ? `width:${props.width}` : "")};
+  ${(props) => (props.height ? `flex:${props.flex}` : "")};
+  ${(props) => (props.justifyContent ? `justify-content:${props.justifyContent}` : "")};
 `;
 
 export const StyledUl = styled.ul`

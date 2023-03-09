@@ -9,7 +9,14 @@ const Side = () => {
   const { Row } = Layout;
   const { Ul, Li } = SideBar;
   return (
-    <SideBar flex="0 0 15%">
+    <SideBar
+    position="absolute"
+    top="0"
+    left="0"
+    width="15%"
+    height="100%"
+    justifyContent="flex-start"
+    >
       <Row paddingTop="4rem">
         <Ul>
           <Li>
@@ -24,9 +31,13 @@ const Side = () => {
           </Li>
         </Ul>
       </Row>
-      <Row paddingTop='35rem'>
-        <P width='6vw' fontSize='1.5rem' lineHeight='1.4'>Conditions d'utilisation</P>
-        <P width='6vw' fontSize='1.5rem' lineHeight='1.4'>Politique de confidentialité</P>
+      <Row paddingTop="35rem">
+        <P width="6vw" fontSize="1.5rem" lineHeight="1.4">
+          Conditions d'utilisation
+        </P>
+        <P width="6vw" fontSize="1.5rem" lineHeight="1.4">
+          Politique de confidentialité
+        </P>
       </Row>
     </SideBar>
   );

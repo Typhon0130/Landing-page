@@ -10,7 +10,7 @@ const Home = () => {
     <Layout>
       <Container>
         <Navbar />
-        <Row alignItems='flex-start'>
+        <Row alignItems='flex-start' style={{position: "relative"}}>
           <Side />
           <MainPage />
         </Row>

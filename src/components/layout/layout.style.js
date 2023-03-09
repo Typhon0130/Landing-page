@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const StyledLayout = styled.section`
 ${(props) => (props.flex ? `flex:${props.flex}` : "")};
+${(props) => (props.width ? `width:${props.width}` : "")};
+${(props) => (props.paddingBottom ? `padding-bottom:${props.paddingBottom}` : "")};
+${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
 `;
 
 export const StyledContainer = styled.div`

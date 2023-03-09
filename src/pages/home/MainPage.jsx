@@ -11,11 +11,11 @@ export default function MainPage() {
   const { Name, Brand, Price, Rate } = CardWrapper;
 
   return (
-    <Layout flex="0 0 85%">
+    <Layout width='100%' paddingLeft='15%'>
       <Row
         backgroundImage={Background}
         textAlign="start"
-        flexDirection="column"
+        flexDirection="row"
       >
         <Column
           display="block"
@@ -40,110 +40,112 @@ export default function MainPage() {
           <Button>Connecter votre portefeuille</Button>
         </Column>
       </Row>
-      <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-      </Row>
-      <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-      </Row>
-      <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-      </Row>
-      <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-        <CardWrapper>
-          <Row paddingBottom="28px">
-            <Brand />
-            <Name>Andromeda</Name>
-          </Row>
-          <Rate>Rating: Not rated</Rate>
-          <Price>$11.99</Price>
-        </CardWrapper>
-      </Row>
+      <Layout paddingBottom='10rem' >
+        <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+        </Row>
+        <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+        </Row>
+        <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+        </Row>
+        <Row paddingTop="31px" paddingLeft="56px" justifyContent="space-around">
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+          <CardWrapper>
+            <Row paddingBottom="28px">
+              <Brand />
+              <Name>Andromeda</Name>
+            </Row>
+            <Rate>Rating: Not rated</Rate>
+            <Price>$11.99</Price>
+          </CardWrapper>
+        </Row>
+      </Layout>
     </Layout>
   );
 }

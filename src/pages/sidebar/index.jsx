@@ -25,7 +25,7 @@ const Side = () => {
             </Link>
           </Li>
           <Li>
-            <Link>
+            <Link to={""}>
               <AiOutlineUser /> Profile
             </Link>
           </Li>

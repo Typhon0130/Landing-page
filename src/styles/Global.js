@@ -79,6 +79,9 @@ textarea,
 select {
   font: inherit;
 }
+a {
+  text-decoration: none;
+}
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

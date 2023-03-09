@@ -13,14 +13,19 @@ export const StyledContainer = styled.div`
 export const StyledRow = styled.div`
   display: flex;
   flex-direction: row;
-  align-tiems: center;
+  align-items: center;
   ${(props) => (props.display ? `display:${props.display}` : "")};
   ${(props) => (props.textAlign ? `text-align:${props.textAlign}` : "")};
   ${(props) => (props.backgroundImage ? `background: no-repeat url(${props.backgroundImage})` : "")};
   background-size: cover;
-  ${(props) => (props.gridTemplateColumns ? `grid-template-columns:${props.gridTemplateColumns}` : "")};
-  ${(props) => (props.gap ? `gap:${props.gap}` : "")};
+  ${(props) => (props.justifyContent ? `justify-content:${props.justifyContent}` : "")};
   ${(props) => (props.flexDirection ? `flex-direction:${props.flexDirection}` : "")};
+  ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
+  ${(props) => (props.paddingRight ? `padding-right:${props.paddingRight}` : "")};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
+  ${(props) => (props.paddingBottom ? `padding-bottom:${props.paddingBottom}` : "")};
+  ${(props) => (props.marginTop ? `margin-top:${props.marginTop}` : "")};
+  ${(props) => (props.marginLeft ? `margin-left:${props.marginLeft}` : "")};
 `;
 
 export const StyledColumn = styled.div`

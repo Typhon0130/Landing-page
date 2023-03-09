@@ -1,6 +1,5 @@
-Copyright (c) 2016-2020 The Inter Project Authors.
-"Inter" is trademark of Rasmus Andersson.
-https://github.com/rsms/inter
+Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (e-types.com),
+with Reserved Font Name "Play", "Playtype", "Playtype Sans".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL

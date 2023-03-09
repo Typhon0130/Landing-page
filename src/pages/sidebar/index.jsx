@@ -20,22 +20,22 @@ const Side = () => {
       <Row paddingTop="4rem">
         <Ul>
           <Li>
-            <Link>
+            <Link to={"/"}>
               <AiFillHome /> Home
             </Link>
           </Li>
           <Li>
-            <Link to={""}>
+            <Link to={"/profile"}>
               <AiOutlineUser /> Profile
             </Link>
           </Li>
         </Ul>
       </Row>
       <Row paddingTop="35rem">
-        <P width="6vw" fontSize="1.5rem" lineHeight="1.4">
+        <P width="7vw" fontSize="1.2rem" lineHeight="1.4">
           Conditions d'utilisation
         </P>
-        <P width="6vw" fontSize="1.5rem" lineHeight="1.4">
+        <P width="7vw" fontSize="1.2rem" lineHeight="1.4">
           Politique de confidentialité
         </P>
       </Row>

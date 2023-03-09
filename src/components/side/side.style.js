@@ -15,6 +15,9 @@ export const StyledSide = styled.div`
   ${(props) => (props.width ? `width:${props.width}` : "")};
   ${(props) => (props.height ? `flex:${props.flex}` : "")};
   ${(props) => (props.justifyContent ? `justify-content:${props.justifyContent}` : "")};
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const StyledUl = styled.ul`
@@ -28,10 +31,10 @@ export const StyledLi = styled.li`
     font-family: "InterNormal";
     font-style: normal;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 25px;
     transition: 0.3s;
-    &: hover {
+    :hover {
       color: #3c009d;
     }
   }

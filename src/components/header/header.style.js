@@ -14,6 +14,9 @@ export const H1Wrapper = styled.h1`
   ${(props) => (props.fontSize ? `font-size:${props.fontSize}` : "")};
   ${(props) => (props.lineHeight ? `line-height:${props.lineHeight}` : "")};
   ${(props) => (props.fontWeight ? `font-weight:${props.fontWeight}` : "")};
+  @media screen and (max-width: 1024px) {
+    font-size: 4.5vw;
+  }
 `;
 
 export const H2Wrapper = styled.h2`

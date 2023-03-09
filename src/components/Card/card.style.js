@@ -20,12 +20,15 @@ export const StyledCard = styled.div`
       rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
       rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   }
+  @media screen and (max-width: 1440px) {
+    flex: 0 0 50%;
+  }
 `;
 
 export const StyledName = styled.p`
   font-family: "PlayNormal";
   margin-left: 12px;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   line-height: 43px;
   font-weight: 700;
@@ -36,6 +39,7 @@ export const StyledBrand = styled.div`
   height: 65px;
   border-radius: 50%;
   background: ${theme.colors.white};
+  transition: 0.3s all;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 `;
@@ -44,11 +48,25 @@ export const StyledRate = styled.p`
   font-weight: 400;
   font-size: 32px;
   line-height: 48px;
-  padding-botom: 28px;
+  padding-bottom: 28px;
 `;
 
 export const StyledPrice = styled.p`
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+`;
+
+export const StyledCardRow = styled.div`
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 45px;
+  column-gap: 115px;
+  @media screen and (max-width: 1260px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 880px) {
+    grid-template-columns: 1fr;
+  }
 `;

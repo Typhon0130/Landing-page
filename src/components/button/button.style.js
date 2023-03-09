@@ -16,6 +16,7 @@ const Button = styled.button`
   line-height: normal;
   padding: 18px 20px;
   font-size: 26px;
+  font-family: 'InterNormal';
   user-select: none;
   &:hover {
     background:#3C009D;

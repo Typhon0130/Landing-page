@@ -8,7 +8,7 @@ const Navbar = () => {
         <Nav>
             <div style={{display:'flex', alignItems:'center'}}>
                 <Brand></Brand>
-                <H1 paddingLeft='20px' fontSize='3.3rem'>Testnet Nodes</H1>
+                <H1 paddingLeft='20px' fontSize='2.3rem'>Testnet Nodes</H1>
             </div>
             <Button>Connector</Button>
         </Nav>

@@ -12,7 +12,7 @@ const Home = () => {
         <Navbar />
         <Row
           display="grid"
-          gridTemplateColumns="auto auto auto auto"
+          gridTemplateColumns="auto auto auto auto auto"
           gap="10px"
         >
           <Sidebar />

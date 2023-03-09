@@ -5,8 +5,7 @@ export const H1Wrapper = styled.h1`
   color: ${theme.colors.white};
   font-size: 4rem;
   line-height: 1.2;
-  font-weight: revert;
-  font-family: revert;
+  font-family: 'InterNormal';
   ${(props) => (props.fontSize ? `font-size:${props.fontSize}` : "")};
   ${(props) => (props.letterSpacing ? `letter-spacing:${props.letterSpacing}` : "")};
   ${(props) => (props.color ? `color:${props.color}` : "")};

@@ -20,7 +20,7 @@ export const theme = {
     success: "#66A15A",
   },
   fonts: {
-    popins: 'Anek Malayalam'
+    popins: 'InterNormal'
   },
   paddings: {
     container: '15px',

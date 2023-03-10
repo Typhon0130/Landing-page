@@ -21,20 +21,33 @@ export const H1Wrapper = styled.h1`
 
 export const H2Wrapper = styled.h2`
   font-size: 1.5em;
+  color: ${theme.colors.white};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
 `;
 
 export const H3Wrapper = styled.h3`
   font-size: 1em;
+  color: ${theme.colors.white};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
 `;
 
 export const H4Wrapper = styled.h4`
   font-size: 1.33em;
+  color: ${theme.colors.white};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
+  ${(props) => (props.position ? `position:${props.position}` : "")};
+  ${(props) => (props.bottom ? `bottom:${props.bottom}` : "")};
+  ${(props) => (props.left ? `left:${props.left}` : "")};
 `;
 
 export const H5Wrapper = styled.h5`
   font-size: 0.83em;
+  color: ${theme.colors.white};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
 `;
 
 export const H6Wrapper = styled.h6`
   font-size: 0.67rem;
+  color: ${theme.colors.white};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
 `;

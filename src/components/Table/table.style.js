@@ -9,6 +9,7 @@ export const StyledTable = styled.table`
   font-size: 0.9em;
   min-width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ 
 `;
 
 export const StyledTr = styled.tr`
@@ -35,4 +36,8 @@ export const StyledTbody = styled.tbody`
   }
 `;
 
-export const StyledThead = styled.thead``;
+export const StyledThead = styled.thead`
+ & tr th {
+  padding-bottom: 22px;
+ }
+`;

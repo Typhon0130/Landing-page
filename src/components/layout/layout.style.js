@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const StyledLayout = styled.section`
   ${(props) => (props.flex ? `flex:${props.flex}` : "")};
   ${(props) => (props.width ? `width:${props.width}` : "")};
-  ${(props) =>
-    props.paddingBottom ? `padding-bottom:${props.paddingBottom}` : ""};
+  ${(props) => (props.paddingTop ? `padding-top:${props.paddingTop}` : "")};
+  ${(props) => (props.paddingBottom ? `padding-bottom:${props.paddingBottom}` : "")};
   ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
   @media screen and (max-width: 1024px) {
     padding-left: 0%;
@@ -17,6 +17,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const StyledRow = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   ${(props) => (props.alignItems ? `align-items:${props.alignItems}` : "")};
@@ -48,6 +49,7 @@ export const StyledColumn = styled.div`
   align-items: center;
   ${(props) => (props.display ? `display:${props.display}` : "")};
   ${(props) => (props.width ? `width:${props.width}` : "")};
+  ${(props) => (props.height ? `height:${props.height}` : "")};
   ${(props) => (props.paddingLeft ? `padding-left:${props.paddingLeft}` : "")};
   @media screen and (max-width: 1440px) {
     width: 100vw;

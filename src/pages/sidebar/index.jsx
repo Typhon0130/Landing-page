@@ -3,7 +3,6 @@ import SideBar from "components/side";
 import { Link } from "react-router-dom";
 import { AiFillHome, AiOutlineUser } from "react-icons/ai";
 import Layout from "components/layout";
-import P from "components/paragraph";
 
 const Side = () => {
   const { Row } = Layout;

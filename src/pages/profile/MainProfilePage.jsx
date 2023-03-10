@@ -1,17 +1,11 @@
 import Layout from "../../components/layout";
 import Images from "constants/img.constant";
-import { H1 } from "components/header";
-import P from "components/paragraph";
-import Button from "components/button";
-import CardWrapper from "components/Card";
-import { AiFillHome, AiOutlineUser } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import Table from "components/Table";
+import Span from "components/Span";
 
 export default function MainPage() {
   const { Row, Column } = Layout;
   const { Background } = Images;
-  const { Name, Brand, Price, Rate, CardRow } = CardWrapper;
   const { Tr, Th, Td, Tbody, Thead } = Table;
 
   return (
@@ -23,7 +17,9 @@ export default function MainPage() {
           width="50vw"
           style={{ paddingTop: "100px", paddingBottom: "100px" }}
         >
-          <Row></Row>
+          <Row>
+            <Span borderRadius='5px' width='500px' height='500px' ></Span>
+          </Row>
         </Column>
       </Row>
       <Layout paddingBottom="10rem">

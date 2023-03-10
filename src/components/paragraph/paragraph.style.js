@@ -21,4 +21,8 @@ export default styled.p`
   ${(props) => (props.lineHeight ? `line-height:${props.lineHeight}` : "")};
   ${(props) => (props.fontWeight ? `font-weight:${props.fontWeight}` : "")};
   ${(props) => (props.color ? `color:${props.color}` : "")};
+  @media screen and ( max-width: 400px ) {
+    padding: 10px;
+    font-weight: 300 !important;
+  }
 `;

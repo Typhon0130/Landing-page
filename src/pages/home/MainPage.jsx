@@ -11,7 +11,7 @@ export default function MainPage() {
   const { Name, Brand, Price, Rate, CardRow } = CardWrapper;
 
   return (
-    <Layout width="100%" paddingLeft="15%">
+    <Layout width="100%" flex="0 0 85%">
       <Row backgroundImage={Background} textAlign="start" flexDirection="row">
         <Column
           display="block"
@@ -22,7 +22,7 @@ export default function MainPage() {
           <H1 fontSize="48px" fontWeight="700" lineHeight="67px">
             Contribuez au monde de la Defi
           </H1>
-          <P width="22vw" fontSize="24px" fontWeight="400" lineHeight="34px">
+          <P width="45vw" fontSize="24px" fontWeight="400" lineHeight="34px">
             Zapper est votre porte vers le Web3. Visualisez l'ensemble de vos
             portefeuilles. Suivez les positions d'autres investisseurs.
             Découvrez de nouvelles collections de NFTs, DAOs et applications

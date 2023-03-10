@@ -23,6 +23,9 @@ export const StyledCard = styled.div`
   @media screen and (max-width: 1440px) {
     flex: 0 0 50%;
   }
+  @media screen and ( max-width: 400px ) {
+    padding: 20px;
+  }
 `;
 
 export const StyledName = styled.p`

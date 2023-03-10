@@ -13,8 +13,8 @@ export const StyledSide = styled.div`
   ${(props) => (props.top ? `top:${props.top}` : "")};
   ${(props) => (props.left ? `left:${props.left}` : "")};
   ${(props) => (props.width ? `width:${props.width}` : "")};
-  ${(props) => (props.height ? `flex:${props.flex}` : "")};
   ${(props) => (props.justifyContent ? `justify-content:${props.justifyContent}` : "")};
+  ${(props) => (props.flex ? `flex:${props.flex}` : "")};
   @media screen and (max-width: 1024px) {
     display: none;
   }

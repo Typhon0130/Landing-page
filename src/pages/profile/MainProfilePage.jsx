@@ -1,7 +1,6 @@
 import Layout from "../../components/layout";
 import Images from "constants/img.constant";
 import Table from "components/Table";
-import Span from "components/Span";
 import { H1 } from "components/header";
 import Button from "components/button";
 import P from "components/paragraph";
